@@ -17,6 +17,7 @@ function App() {
         >
           Learn React
         </a>
+        <p>{process.env.REACT_APP_MY_VAR}</p>
       </header>
     </div>
   );
